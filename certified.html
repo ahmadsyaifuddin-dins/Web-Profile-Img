@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="icon" href="logo-phonix.jpg">
+    <!-- Compressed CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/css/foundation.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <title>Sertifikasi Page</title>
+
+    <style>
+        body {
+            background-image: url(cool-background.png);
+            background-size: contain;
+        }
+
+        nav {
+            background-image: url(cool-background.png);
+            background-size: cover;
+            padding: 5px 20px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        nav a {
+            color: black;
+        }
+
+        nav a:hover {
+            color: #ffff;
+        }
+
+        .logo {
+            padding-right: 70%;
+        }
+
+        .logo img {
+            width: 50px;
+            margin-left: 1px;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            list-style: none;
+        }
+
+
+        .menu li {
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            font-size: 16px;
+
+        }
+
+
+        .toggle {
+            font-size: 30px;
+            display: none;
+        }
+
+        @media screen and (max-width:480px) {
+            logo a {
+                padding-right: 0;
+            }
+        }
+
+        @media screen and (max-width:600px) {
+            nav {
+                display: block;
+                position: relative;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-bottom: 10px;
+                padding-top: 10px;
+            }
+
+
+            .menu {
+                margin-top: 10px;
+                display: none;
+
+            }
+
+            .menu a {
+                display: flex;
+                width: 100%;
+                background-image: url(cool-background.png);
+                background-size: cover;
+                padding: 10px 10px;
+
+            }
+
+            .menu a:hover {
+                color: black;
+            }
+
+            .menu li {
+                padding-left: 1px;
+                padding-right: 5px;
+
+            }
+
+            .menu.active,
+            .toggle {
+                display: block;
+            }
+
+            .toggle {
+                position: absolute;
+                top: 20px;
+                right: 10px;
+            }
+
+
+        }
+
+        .footer {
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+            padding-bottom: 10px;
+            padding-top: 6px;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="index.html"><img src="logo-phonix.jpg" alt="logo"></a>
+        </div>
+        <div class="toggle">
+            <a href="#">
+                <ion-icon name="menu-outline"></ion-icon>
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="https://ahmadsyaifuddin-99.github.io">Portfolio</a></li>
+            <li><a href="certified.html">Certificates</a></li>
+        </ul>
+    </nav>
+
+    <div class="grid-container" style="margin-top: 20px;">
+        <div class="grid-x grid-margin-x small-up-1 medium-up-2">
+            <div class="cell">
+                <div class="card">
+                    <img src="Introduction-JS.png">
+                    <div class="card-section">
+                        <h3>Sertifikat Introduction JavaScript</h3>
+                        <p>Sertifikat ini saya dapatkan di <b>sololearn</b> Penyedia Kursus Introduction JavaScript</p>
+                        <a href="https://drive.google.com/file/d/1S8N0gGs6ZqYfKNFXzRkoVl5ruG6JI2Lu/view?usp=sharing"
+                            class="button align-right">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="card">
+                    <img src="JS-Intermediate.png">
+                    <div class="card-section">
+                        <h3>Sertifikat JavaScript Intermediate</h3>
+                        <p>Sertifikat ini saya dapatkan di <b>sololearn</b> Penyedia Kursus JavaScript Intermediate</p>
+                        <a href="https://drive.google.com/file/d/1sB8leNqMHJxbhFPEao_5neUzpgG0TBqx/view?usp=drive_link"
+                            class="button">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cell">
+                <div class="card">
+                    <img src="dicodingFrond-end.png">
+                    <div class="card-section">
+                        <h3>Sertifikat Dicoding Belajar Dasar Pemrograman Web (Frond-end) </h3>
+                        <p>Sertifikat ini saya dapatkan di <b>Dicoding</b> Penyedia Kursus Belajar Dasar Pemrograman Web
+                        </p>
+                        <a href="https://drive.google.com/file/d/1QGpCvban4ao6ZXPK3UdXkciqKVGQsakj/view?usp=sharing"
+                            class="button">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cell">
+                <div class="card">
+                    <img src="sertifikasi_respon.png">
+                    <div class="card-section">
+                        <h3>Sertifikat Responsive Website Design Course</h3>
+                        <p>Sertifikat ini saya dapatkan di <b>BitDegree</b> Penyedia Kursus Responsive Website Design
+                            Course</p>
+                        <a href="https://drive.google.com/file/d/17zYzwoIqYF4hyUXwmgOliqNLRMJtGqZv/view?usp=sharing"
+                            class="button">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="card">
+                    <img src="Web-dev.png" width="570px">
+                    <div class="card-section">
+                        <h3>Sertifikat Web Development</h3>
+                        <p>Sertifikat ini saya dapatkan di <b>sololearn</b> Penyedia Kursus Web Development</p>
+                        <a href="https://drive.google.com/file/d/12FUOhWvnw7xlnsBgIGWmJgzvQn9pI9DI/view?usp=sharing"
+                            class="button">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="card">
+                    <img src="SQL-Intermediate.png">
+                    <div class="card-section">
+                        <h3>Sertifikat SQL Intermediate</h3>
+                        <p>Sertifikat ini saya dapatkan di <b>sololearn</b> Penyedia Kursus SQL Intermediate</p>
+                        <a href="https://drive.google.com/file/d/1VNvnsRYSLzY5G5OpOHhoHaZJT5EY5RK4/view?usp=sharing
+                        " class="button">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cell">
+                <div class="card">
+                    <img src="php.png">
+                    <div class="card-section">
+                        <h3>Sertifikat PHP</h3>
+                        <p>Sertifikat ini saya dapatkan di <b>sololearn</b> Penyedia Kursus PHP</p>
+                        <a href="https://drive.google.com/file/d/1XR6CRSQqjPeqICnJRSG836hFZbMAPQU1/view?usp=sharing"
+                            class="button">Check My Certified</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="cell">
+                <div class="card">
+                    <img src="2023-10-23_194826.png">
+                    <div class="card-section">
+                        <h3>Sertifikat Introduction to JavaScript</h3>
+                        <p>Sertifikat ini saya dapatkan dari <a href="https://harisenin.com">harisenin</a> sebagai
+                            Partisipan (Seminar) Pengenalan JavaScript untuk Pemula </p>
+                        <a href="https://drive.google.com/file/d/1j8dT8zhn7D1b3d5oyMWNz-MSoxNUcNN7/view?usp=sharing"
+                            class="button">Check My Certified</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="grid-x grid-margin-x small-up-1 medium-up-2">
+            
+        </div> -->
+    </div>
+
+    <div class="footer"> Copyright © Ahmad Syaifuddin | 2023 All Right Reserved </div>
+
+    <!-- Compressed JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.8.1/dist/js/foundation.min.js" crossorigin="anonymous">
+
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+
+
+
+    <script>
+        $(function () {
+            $(".toggle").on("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                $(".menu").toggleClass("active");
+                $(this).find("a").html(
+                    $(".menu").hasClass("active") ? "<ion-icon name='close-outline'></ion-icon>" :
+                    "<ion-icon name='menu-outline'></ion-icon>"
+                );
+            });
+        });
+    </script>
+</body>
+
+</html>

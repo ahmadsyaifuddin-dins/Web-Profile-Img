@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Project Responsive</title>
+    <link rel="icon" href="logo-phonix.jpg">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#home"><img src="logo-phonix.jpg" alt="logo"></a>
+        </div>
+        <div class="toggle">
+            <a href="#">
+                <ion-icon name="menu-outline"></ion-icon>
+            </a>
+        </div>
+        <ul class="menu">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="certified.html">Certificates</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- U D I N  H A R A F I A H -->
+    <div class="header-container">
+        <h1>U - D - I - N </h1>
+        <p><b>U</b>nggul, <b>D</b>inamis, <b>I</b>nspiratif & <b>N</b>aluriah</p>
+    </div>
+
+    <div class="profile-container">
+        <img src="IMG_20220812_213152.jpg" width="250px">
+        <div id="home" class="profile">
+            <h2>MY BIODATA</h2>
+            <p>Nama: Ahmad Syaifuddin</p>
+            <p>NPM: 2210010111</p>
+            <p>Alamat: Jl. Transkalimantan No. 78</p>
+            <p>Saya adalah seorang mahasiswa yang senang belajar web development.</p>
+            <p>Hobi saya adalah Mencari sebuah Ilmu Pengetahuan yang berguna bagi hidup saya dan ingin menciptakan masa
+                depan bumi yang semakin cerah.</p>
+            <p>Prinsip: "Seperti bunga teratai yang tumbuh di lumpur dan mekar di atas air, manusia dapat tumbuh
+                dan berkembang bahkan dalam lingkungan yang tidak sempurna."</p>
+            <p>Kata-kata: "Kehidupan bukanlah Tujuan, akan tetapi Sebuah Perjalanan.
+                Nahkodailah dirimu untuk menuju ke arah Jalan Pulang (Kembali Ke pelukan Tuhan)"
+            </p>
+            <br>
+            <div class="btn-link" id="portfolio">
+                <a href="https://ahmadsyaifuddin-99.github.io">Check My Portfolio</a>
+            </div>
+
+            <div class="icon" id="Contact">
+                <a href="https://www.tiktok.com/@ahmadsyai004?lang=id-ID" class="fa-brands fa-tiktok fa-xl"
+                    style="color: #17191c;"></a>
+                <a href="https://wa.me/6285849910396" class="fa-brands fa-whatsapp fa-xl" style="color: #16a22d;"></a>
+                <a href="https://www.instagram.com/real.ahmadsyaifuddin/" class="fa-brands fa-instagram fa-xl"
+                    style="color: #e82011;"></a>
+                <a href="https://github.com/ahmadsyaifuddin-99" class="fa-brands fa-github fa-xl"
+                    style="color: #111213;"></a>
+                <a href="https://codepen.io/ahmadsyaifuddin-99" class="fa-brands fa-codepen fa-xl"
+                    style="color: #050505;"></a>
+
+            </div>
+            <!-- <ion-icon name="logo-whatsapp"></ion-icon></a>
+            <ion-icon name="logo-github"></ion-icon>
+            <ion-icon name="logo-playstation"></ion-icon> -->
+        </div>
+    </div>
+
+    <div class="footer"> Copyright © Ahmad Syaifuddin | 2023 All Right Reserved </div>
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+
+
+    <script>
+        $(function () {
+            $(".toggle").on("click", function (event) {
+                event.preventDefault();
+                event.stopPropagation();
+
+                $(".menu").toggleClass("active");
+                $(this).find("a").html(
+                    $(".menu").hasClass("active") ? "<ion-icon name='close-outline'></ion-icon>" :
+                    "<ion-icon name='menu-outline'></ion-icon>"
+                );
+            });
+        });
+    </script>
+</body>
+
+</html>
