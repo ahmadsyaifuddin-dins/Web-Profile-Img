@@ -212,6 +212,10 @@ a:visited {
         padding-right: 10px;
     }
 
+    .header-container p {
+        font-size: 20px;
+    }
+
     h2 {
         display: flex;
         justify-content: center;
