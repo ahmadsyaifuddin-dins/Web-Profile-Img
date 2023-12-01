@@ -254,8 +254,6 @@ a:visited {
 
 .footer {
   color: #c1b9a4;
-  display: flex;
-  justify-content: center;
   margin-top: 15px;
   padding-bottom: 10px;
   padding-top: 6px;
