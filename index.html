@@ -74,29 +74,21 @@
         </div>
     </div>
 
-    <div class="footer"> Copyright © Ahmad Syaifuddin | 2023 All Right Reserved </div>
+    <div class="footer"> Copyright © <span id="year"> </span> Ahmad Syaifuddin | All Right Reserved </div>
 
 
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script src="toggle.js"></script>
 
-
+    <!-- Year Footer Dynamic -->
     <script>
-        $(function () {
-            $(".toggle").on("click", function (event) {
-                event.preventDefault();
-                event.stopPropagation();
-
-                $(".menu").toggleClass("active");
-                $(this).find("a").html(
-                    $(".menu").hasClass("active") ? "<ion-icon name='close-outline'></ion-icon>" :
-                    "<ion-icon name='menu-outline'></ion-icon>"
-                );
-            });
-        });
+        document.getElementById("year").innerHTML = new Date().getFullYear();
     </script>
+
+
 </body>
 
 </html>
