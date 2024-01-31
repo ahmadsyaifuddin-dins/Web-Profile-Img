@@ -33,6 +33,10 @@ nav a:hover {
   color: white;
 }
 
+.disabled-link {
+  pointer-events: none;
+}
+
 .logo {
   padding-right: 70%;
 }
