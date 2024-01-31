@@ -33,10 +33,6 @@ nav a:hover {
   color: white;
 }
 
-.disabled-link {
-  pointer-events: none;
-}
-
 .disabled-link a {
   pointer-events: none;
   color: #666 !important;
